@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", sans-serif;	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1,h2,h3,h4{
+	font-weight: bold;
+}
+
+.FirstBanner{ 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	margin-bottom: 56px;
+	color:white;
+	height: 958px;
+}
+.sub-title{
+	font-size: 24px;
+	line-height: 42px;
+}
+h1{
+	font-size: 80px;
+	line-height: 106px;
+	margin-bottom: 32px;
+}
+.FirstBanner-content p{
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 40px;
+}
+.icon{
+	display: flex;
+}
+.icon li{
+	display: block;
+}
+.icon li a{
+	margin-right: 16px;
+}
+.about{
+	text-align: center;
+	margin-bottom: 56px 0;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.about h2{
+	font-size: 64px;
+	line-height: 84px;
+	margin-bottom: 40px;
+}
+.info{
+	font-size: 24px;
+	border-bottom: 1px solid #000000 ;
+	width: 384px;
+	padding-bottom: 24px;
+	padding-top: 20px;
+	line-height: 24px;
+}
+.birth{
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+.school{
+	line-height: 36px;
+}
+.experience{
+	font-size: 24px;
+	line-height: 42px;
+}
+.experience li{
+	margin-top: 28px;
+}
+.experience li::before{
+	content:"●";
+	color:#891818;
+	margin-right: 16px;
+}
+
+.brand{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 56px;
+	padding-bottom: 160px;
+}
+
+h3{
+	font-size: 64px;
+	line-height: 84px;
+	margin-bottom: 12px;
+}
+.brand p{
+	font-size: 24px;
+	line-height: 42px;
+}
+.intro{
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 32px;
+	margin-bottom: 68px;
+}
+.brand-img1{
+ 	margin-bottom: 40px;
+}
+.img-row{
+	display: flex;
+	justify-content: space-between;
+}
+.works{
+	padding:56px 360px 144px 360px;
+	text-align: center;
+}
+.works h2{
+	font-size: 64px;
+	line-height: 84px;
+	margin-bottom: 16px;
+}
+.works p{
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 56px;
+}
+.works-img{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.works-img h4{
+	font-size: 20px;
+	line-height: 42px;
+	margin-top: 16px;
+	margin-bottom: 48px;
+}
+.footer{
+	background: #000000;
+	color:white;
+	text-align: center;
+	color:white;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+.footer h2{
+	font-size: 64px;
+	line-height: 84px;
+}
+.footer li{
+	margin-top: 16px;
+	font-size: 24px;
+	line-height: 36px;
+}
+.footer li a{
+	text-decoration: none;
+	color:white;
+}
+.footer li a:hover{
+	background:white;
+	color: #000000;
+}
+a:hover {
+	opacity: 0.8;
+  }
+img:hover {
+	opacity: 0.7;
+  }
+
