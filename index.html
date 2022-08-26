@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <!-- 視差滾動 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
         <div class="FirstBanner">
-            <div class="FirstBanner-content">
+            <div class="FirstBanner-content container"  >
             <span class="sub-title">Here’s</span>
             <br>
             <h1>JOANNE</h1>
@@ -25,85 +29,122 @@
 
 
         <div class="about">
-            <h2>About</h2>
-            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/photo.png?raw=true" alt="">
+            <div class="container">
+            <h2 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">About</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/photo.png?raw=true" data-aos="flip-left" alt="">
             <ul class="info">
-                <li claa="name">Joanne Chen</li>
-                <li class="birth">1997/10/10</li>
-                <li class="school">National Hex School Normal University<br> Department of Visual Design</li>
+                <li claa="name" data-aos="zoom-out-up">Joanne Chen</li>
+                <li class="birth" data-aos="zoom-out-up">1997/10/10</li>
+                <li class="school" data-aos="zoom-out-up">National Hex School Normal University<br> Department of Visual Design</li>
             </ul>
-            <ul class="experience">   
+            <ul class="experience" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">   
                 <li>Founder of ‘’XXXD Official’’</li>
                 <li>Graphic Designer</li>
                 <li>Graphic Intern of Hex School</li>
             </ul>
+            </div>
         </div>
 
-        <div class="brand">  
-            <h3>My Brand ‘’XXXD’’</h3>
-            <p>Just Keep XXXD Everyday</p>
+        <div class="brand"> 
+            <div class="container">
+            <h3 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">My Brand ‘’XXXD’’</h3>
+            <p >Just Keep XXXD Everyday</p>
             <p class="intro">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
-                <img class="brand-img1" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img1.png?raw=true" alt="">
+                <img class="brand-img1" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img1.png?raw=true" data-aos="fade-down" alt="">
             <div class="img-row">
-                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img2.png?raw=true" alt="">
-                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img3.png?raw=true" alt="">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img2.png?raw=true" data-aos="fade-up-right" alt="">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/brand_img3.png?raw=true" data-aos="fade-up-left" alt="">
             </div> 
+        </div> 
         </div>
 
         <div class="works">
-            <h2>Other Works</h2>
+            <div class="container">
+            <h2 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">Other Works</h2>
             <p>2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
             <ul class="works-img">
-                <li>
+                <li data-aos="fade-right">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img1.png?raw=true" alt="">
                         <h4>海報設計/2017</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-down">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img2.png?raw=true" alt="">
                         <h4>海報設計/2018</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-left">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img3.png?raw=true" alt="">
                         <h4>海報設計/2018</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-right">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img4.png?raw=true" alt="">
                         <h4>概念攝影/2018</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-left">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img5.png?raw=true" alt="">
                         <h4>概念攝影/2018</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-right">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img6.png?raw=true" alt="">
                         <h4>sasa 酒標設計/2019</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img7.png?raw=true" alt="">
                         <h4>攝影創作/2018</h4>
                     </img>
                 </li>
-                <li>
+                <li data-aos="fade-left">
                     <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week2/work_img8.png?raw=true" alt="">
                         <h4>官網設計/2020</h4>
                     </img>
                 </li>
             </ul>
+            </div>
         </div>
 
         <div class="footer">
-            <h2>Contact</h2>
+            <div class="container">
+            <h2 data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="2000">Contact</h2>
             <ul>
                 <li>Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></li>
                 <li>Phone Number：<a href="tel:+886-910123456">0910123456</a></li>
             </ul>
         </div>
+        </div>
 
+         
+    
 </body>
+
+
 </html>
+<!-- AOS 全域設計 -->
+<script>
+    AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 100, // offset (in px) from the original trigger point
+        delay: 1, // values from 0 to 3000, with step 50ms
+        duration: 2000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+</script>
